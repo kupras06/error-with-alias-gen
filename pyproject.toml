@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fastapi-test"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+beanie = "^1.23.6"
+uvicorn = "^0.24.0.post1"
+pydantic-settings = "^2.1.0"
+requests = "^2.31.0"
+pydantic = {extras = ["email"], version = "^2.5.2"}
+itsdangerous = "^2.1.2"
+pyjwt = "^2.8.0"
+pyotp = "^2.9.0"
+redis = "^5.0.1"
+python-slugify = "^8.0.1"
+passlib = "^1.7.4"
+mjml = "^0.10.0"
+fastapi-mail = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
